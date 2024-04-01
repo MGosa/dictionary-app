@@ -12,6 +12,7 @@ export default function Dictionary(){
 
     function search(event){
         event.preventDefault();
+        alert("Searching...")
       
 
        let apiKey = "off12bea02cd1ft1f4f0c632ee3ca6b4";
