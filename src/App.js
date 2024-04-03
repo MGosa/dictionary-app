@@ -1,3 +1,4 @@
+import logo from "./logo.png"
 import Dictionary from "./Dictionary";
 import './App.css';
 
@@ -7,9 +8,16 @@ function App() {
     <div className="App">
       <div className="container">
         <header>
+          <img src={logo} className="App-logo img-fluid" alt="logo" />
           <Dictionary />
         </header>
       </div>
+      <footer>
+        This project was coded by Monika Gosa and is open-sourced on{" "}
+        <a href="https://github.com/MGosa/dictionary-app" target="_blank">
+          GitHub
+        </a>
+      </footer>
     </div>
   );
 }
