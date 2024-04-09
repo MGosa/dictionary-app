@@ -9,3 +9,14 @@ footer{
     font-size: 15px;
     margin-top: 40px;
 }
+
+body{
+    background-color:#fbeeff;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
