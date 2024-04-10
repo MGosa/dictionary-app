@@ -10,8 +10,11 @@ footer{
     margin-top: 40px;
 }
 
-body{
+.App{
     background-color:#fbeeff;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
 }
 h1{
     text-align: center;
